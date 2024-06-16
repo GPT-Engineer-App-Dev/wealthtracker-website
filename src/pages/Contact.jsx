@@ -1,14 +1,14 @@
 import { Container, Text, VStack, Heading } from "@chakra-ui/react";
 
-const Index = () => {
+const Contact = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
-        <Heading as="h1" size="2xl">Welcome to Financial Times</Heading>
-        <Text fontSize="xl">Your source for the latest financial news and analysis.</Text>
+        <Heading as="h1" size="2xl">Contact Us</Heading>
+        <Text fontSize="xl">For inquiries, please email us at contact@financialtimes.com or call us at (123) 456-7890.</Text>
       </VStack>
     </Container>
   );
 };
 
-export default Index;
+export default Contact;
